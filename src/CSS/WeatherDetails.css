@@ -1,0 +1,23 @@
+.details-container {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px; /* Optional: Adjust the gap between the components */
+  }
+  
+  .row {
+    display: flex;
+    flex-basis: 50%; /* This will make each row take 50% of the container width, fitting 2 items per row */
+    gap:16px;
+}
+  
+
+.round-container{
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}

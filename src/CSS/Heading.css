@@ -1,0 +1,16 @@
+.heading-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.menu-icon{
+    width: 25px;
+}
+
+
+
+.plus-icon{
+    width: 25px;
+}

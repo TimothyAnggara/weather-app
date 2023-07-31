@@ -1,0 +1,46 @@
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 3rem;
+}
+
+/* .button-container button {
+  border: none;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  border-bottom: 1px solid gray; /* Add a border-bottom */
+.button-container button {
+  border: none;
+  padding: 10px 20px;
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+.button-container button::after {
+  content: ""; /* This is necessary for the pseudo-element to work */
+  display: block; /* This will make the pseudo-element behave like a block level element */
+  height: 1px; /* This will be the height of your line */
+  background-color: gray; /* This will be the color of your line */
+  margin-top: 15px; /* Adjust the margin-top property to achieve the desired space */
+}
+
+.button-container button:last-child::after {
+  display: none; /* This will remove the line after the last button */
+}
+
+.line-chart-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chart-container{
+    justify-content: center;
+    align-items: center;
+}
+
+.chart-object{
+    justify-content: center;
+    align-items: center;
+}
